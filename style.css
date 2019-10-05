@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+}
+
+.main-string {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 15px 40px 0 40px;
+}
+
+input {
+  width: 25%;
+  margin-right: 5px;
+  border: 2px solid lightgray;
+  border-radius: 7px;
+  padding-left: 8px;
+  outline: none;
+  height: 30px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn {
+  width: 10%;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: lightslategray;
+  color: lightcyan;
+  outline: none;
+}
+
+.newTr{
+  text-align: center;
+}
+.delete-btn{
+  cursor: pointer;
+}
+.input-first-class-error{
+  width: 25%;
+  margin-right: 5px;
+  border: 2px solid red;
+  border-radius: 7px;
+  padding-left: 8px;
+  outline: none;
+  height: 30px;
+}
