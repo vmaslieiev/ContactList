@@ -1,7 +1,6 @@
 'use strict';
 
 const newList = document.getElementById('added-contact');
-const form = document.getElementById('form');
 const inputFirstName = document.getElementById('input-first');
 const inputLastName = document.getElementById('input-last');
 const inputNumber = document.getElementById('input-number');
